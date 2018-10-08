@@ -1,0 +1,95 @@
+@lineHeight: 40px;
+@c-line-height: 30px;
+@nav-width: 240px;
+ul, ol, li, dl, dd, dt {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #666666;
+}
+
+.menus {
+  width: 700px;
+  margin: 20px;
+  overflow: hidden;
+  position: relative;
+  .navigation {
+    float: left;
+    border: 1px solid #dddddd;
+    background-color: #F9F9F9;
+    width: @nav-width;
+    li {
+      height: @lineHeight;
+      line-height: @lineHeight;
+      padding-right: 10px;
+      color: #555555;
+      &:hover {
+        background-color: #DC2D3A;
+        a, span {
+          color: #FFFFFF;
+        }
+      }
+      span {
+        float: left;
+        width: 6px;
+      }
+      span:first-child {
+        float: left;
+        width: @lineHeight;
+        line-height: @lineHeight;
+        height: 100%;
+        font-size: 18px;
+        text-align: center;
+      }
+      a {
+        float: left;
+        font-size: 16px;
+        height: @lineHeight;
+        line-height: @lineHeight;
+      }
+    }
+  }
+  .nav-children {
+    display: none;
+    margin-left: 240px;
+    background-color: #F6F6F6;
+    left: @nav-width;
+    dl {
+      overflow: hidden;
+      padding: 5px;
+      border-bottom: 1px dotted #aaaaaa;
+      dt, dd {
+        float: left;
+        overflow: hidden;
+        span, a {
+          float: left;
+          height: @c-line-height;
+          line-height: @c-line-height;
+        }
+      }
+      dt {
+        width: 20%;
+        a {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      dd {
+        width: 80%;
+        >div{
+          float: left;
+          overflow: hidden;
+        }
+      }
+      span {
+        width: 8px;
+        color: #999999;
+        text-align: center;
+      }
+    }
+  }
+}

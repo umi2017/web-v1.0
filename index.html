@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootStrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/user.css">
+</head>
+
+<body>
+<nav>
+
+</nav>
+<section>
+    <div class="leftBox">
+        <ul id="menus">
+            <li class="active">
+                <a href="http://www.baidu.com">
+                    <span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;个人信息
+                </a>
+            </li>
+            <li>
+                <a href="http://www.jd.com">
+                    <span class="glyphicon glyphicon-edit"></span>&nbsp;&nbsp;修改密码
+                </a>
+            </li>
+            <li><a href="http://cn.bing.com">
+                <span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;我的订单
+            </a></li>
+            <li><a href="menus.html">
+                <span class="glyphicon glyphicon-star"></span>&nbsp;&nbsp;我的收藏
+            </a></li>
+        </ul>
+    </div>
+    <div class="rightBox">
+        <iframe id="iframe" src="menus.html" frameborder="0">
+
+        </iframe>
+    </div>
+</section>
+<script src="js/jquery.min.js"></script>
+<script src="bootStrap/js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        $('#iframe').attr('src', 'http://www.baidu.com');
+        $("#menus").on('click', "li a", function (e) {
+            e.preventDefault();
+            var url = $(this).attr("href");
+            var li = $(this).parent();
+            li.addClass('active').siblings('li').removeClass('active');
+            $('#iframe').empty().attr('src', url);
+        })
+    })
+</script>
+</body>
+
+</html>

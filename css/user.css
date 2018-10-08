@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+HTML {
+  height: 100%;
+}
+body {
+  background-color: #EFF3F4;
+  height: 100%;
+}
+li,
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav {
+  height: 60px;
+}
+section {
+  height: calc(100% - 60px);
+  width: 100%;
+  overflow: hidden;
+}
+section .leftBox {
+  width: 240px;
+  height: 100%;
+  float: left;
+  padding: 0 15px;
+}
+section .leftBox ul {
+  width: 100%;
+}
+section .leftBox ul li {
+  width: 100%;
+  margin-bottom: 4px;
+  cursor: pointer;
+  background-color: #efefef;
+  border: 1px solid #dddddd;
+  color: #666666;
+}
+section .leftBox ul li.active {
+  color: #9fd50f;
+  background-color: #ebebeb;
+}
+section .leftBox ul li:hover {
+  background-color: #ebebeb;
+}
+section .leftBox ul li a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 16px;
+  font-family: '微软雅黑';
+  display: block;
+  width: 100%;
+  height: 45px;
+  line-height: 25px;
+  padding: 10px;
+  text-align: left;
+  padding-left: 15px;
+}
+section .rightBox {
+  width: calc(100% - 240px);
+  height: 100%;
+  margin-left: 240px;
+  background-color: #ffffff;
+}
+section .rightBox iframe {
+  width: 100%;
+  min-height: 100%;
+}

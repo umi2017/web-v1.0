@@ -1,0 +1,316 @@
+{
+  "data": {
+    "user": "admin",
+    "menus": [
+      {
+        "id": "2017110201",
+        "icon": "glyphicon-hdd",
+        "items": [
+          {
+            "name": "化工",
+            "command": "http://www.jd.com"
+          },
+          {
+            "name": "塑料",
+            "command": "http://www.jd.com"
+          },
+          {
+            "name": "涂料",
+            "command": "http://www.jd.com"
+          },
+          {
+            "name": "表面",
+            "command": "http://www.jd.com"
+          }
+        ],
+        "children": [
+          {
+            "name": "涂料",
+            "command": "http://www.jd.com",
+            "items": [
+              {
+                "name": "涂料原料",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "涂料原料设备",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "涂料",
+                "command": "http://www.jd.com"
+              }
+            ]
+          },
+          {
+            "name": "塑料",
+            "command": "http://www.jd.com",
+            "items": [
+              {
+                "name": "通用/工程",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "塑料助剂",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "电子用料",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "塑料用品",
+                "command": "http://www.jd.com"
+              }
+            ]
+          },
+          {
+            "name": "添加剂",
+            "command": "http://www.jd.com",
+            "items": [
+              {
+                "name": "造纸添加",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "饲料添加",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "添加剂",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "润滑油添",
+                "command": "http://www.jd.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2017110202",
+        "icon": "glyphicon-play-circle",
+        "items": [
+          {
+            "name": "照明",
+            "command": "http://www.jd.com"
+          },
+          {
+            "name": "电子",
+            "command": "http://www.jd.com"
+          },
+          {
+            "name": "电气",
+            "command": "http://www.jd.com"
+          },
+          {
+            "name": "通讯",
+            "command": "http://www.jd.com"
+          }
+        ],
+        "children": [
+          {
+            "name": "灯具",
+            "command": "http://www.jd.com",
+            "items": [
+              {
+                "name": "涂料原料",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "涂料原料设备",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "涂料",
+                "command": "http://www.jd.com"
+              }
+            ]
+          },
+          {
+            "name": "手机",
+            "command": "http://www.jd.com",
+            "items": [
+              {
+                "name": "华为",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "iPhone",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "小米",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "OPPO",
+                "command": "http://www.jd.com"
+              }
+            ]
+          },
+          {
+            "name": "电子配件",
+            "command": "http://www.jd.com",
+            "items": [
+              {
+                "name": "鼠标",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "cpu",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "显卡",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "SSD硬盘",
+                "command": "http://www.jd.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2017110203",
+        "icon": "glyphicon-apple",
+        "items": [
+          {
+            "name": "男装",
+            "command": "http://www.jd.com"
+          },
+          {
+            "name": "女装",
+            "command": "http://www.jd.com"
+          },
+          {
+            "name": "童装",
+            "command": "http://www.jd.com"
+          },
+          {
+            "name": "内衣",
+            "command": "http://www.jd.com"
+          }
+        ],
+        "children": [
+          {
+            "name": "男装",
+            "command": "http://www.jd.com",
+            "items": [
+              {
+                "name": "羽绒服",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "夹克",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "西服",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "西裤",
+                "command": "http://www.jd.com"
+              }
+            ]
+          },
+          {
+            "name": "女装",
+            "command": "http://www.jd.com",
+            "items": [
+              {
+                "name": "连衣裙",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "针织衫",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "棉服",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "短外套",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "皮草",
+                "command": "http://www.jd.com"
+              }
+            ]
+          },
+          {
+            "name": "童装",
+            "command": "http://www.jd.com",
+            "items": [
+              {
+                "name": "套装",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "卫衣",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "裤子",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "亲子装",
+                "command": "http://www.jd.com"
+              }
+            ]
+          },
+          {
+            "name": "配饰",
+            "command": "http://www.jd.com",
+            "items": [
+              {
+                "name": "太阳镜",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "男士腰带",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "镜片",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "领带",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "礼帽",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "钥匙扣",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "真皮手套",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "口罩",
+                "command": "http://www.jd.com"
+              },
+              {
+                "name": "围巾",
+                "command": "http://www.jd.com"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "status": "0"
+}
